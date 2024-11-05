@@ -79,7 +79,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
   <!-- 项目 2 -->
   <div class="research-item">
     <div class="research-image">
-      <img src="/images/rl.png" alt="Robot Learning">
+      <video src="/images/RL.mp4" autoplay loop muted width="250"></video>
     </div>
     <div class="research-details">
       <h3><a href="/research-details" >Robot Learning</a></h3>
