@@ -112,6 +112,7 @@ h1:before, .anchor:before {
 .research-container {
   display: flex;
   flex-direction: column; /* 垂直排列每个 project-item */
+  align-items: flex-start; /* 顶部对齐 */
   gap: 20px; /* 每个项目之间的间距 */
 }
 
@@ -123,7 +124,7 @@ h1:before, .anchor:before {
 
 .research-image img {
   border-radius: 8px;
-  width: 500px; /* 设置图片宽度 */
+  width: 400px; /* 设置图片宽度 */
   height: auto;
   margin-right: 20px; /* 图片和文字之间的间距 */
 }
