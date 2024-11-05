@@ -23,8 +23,43 @@ My research interest lies at the intersection of robotics, optimal control, mach
 
 
 
+# 🤖 Research 
+<div class="research-container">
+  <div class="research">
+    <a href="/research1-page" target="_blank">
+      <div class="research-thumbnail">
+        <img src="/assets/images/research1.gif" alt="research 1 Image">
+      </div>
+      <h3 class="research-title">Robotics And Rehabilitation (RoAR) Lab</h3>
+    </a>
+  </div>
+
+  <div class="research">
+    <a href="/research2-page" target="_blank">
+      <div class="research-thumbnail">
+        <img src="/assets/images/research2.gif" alt="research 2 Image">
+      </div>
+      <h3 class="research-title">Creative Machines Lab</h3>
+    </a>
+  </div>
+  
+</div>
+
+
 # 🤖 Projects 
+Robotics Studio
+
+Robot Learning
+
 Evolving Soft Robot
 
+Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine
 
+# 💻 Work Experiences
+- Teaching Assistant: Data Science for Mechanical Systems
+
+# 📖 Educations
+- *2023.09 - now*, Master, Columbia University.
+- *2019.09 - 2023.06*, Undergraduate, Xi'an Jiaotong University.
+- *2016.09 - 2019.06*, NO.1 Middle School Affiliated to Central China Normal University, Wuhan. 
 
