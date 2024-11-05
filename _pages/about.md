@@ -107,7 +107,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
 
 
 # 💻 Work Experiences
-- Teaching Assistant: Data Science for Mechanical Systems
+- *2024.09 - now*, Teaching Assistant: Data Science for Mechanical Systems
 
 # 📖 Educations
 - *2023.09 - now*, Master, Columbia University.
