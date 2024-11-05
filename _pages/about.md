@@ -47,6 +47,39 @@ My research interest lies at the intersection of robotics, optimal control, mach
 
 
 # 🤖 Projects 
+# 🤖 Projects
+
+<div class="projects-container">
+  <div class="project">
+    <a href="/project1-page" target="_blank">
+      <div class="project-thumbnail">
+        <img src="/assets/images/project1.gif" alt="Project 1 Image">
+      </div>
+      <h3 class="project-title">Robotics Studio</h3>
+    </a>
+  </div>
+
+  <div class="project">
+    <a href="/project2-page" target="_blank">
+      <div class="project-thumbnail">
+        <img src="/assets/images/project2.gif" alt="Project 2 Image">
+      </div>
+      <h3 class="project-title">Robot Learning</h3>
+    </a>
+  </div>
+
+  <div class="project">
+    <a href="/project3-page" target="_blank">
+      <div class="project-thumbnail">
+        <img src="/assets/images/project3.gif" alt="Project 3 Image">
+      </div>
+      <h3 class="project-title">Evolving Soft Robot</h3>
+    </a>
+  </div>
+
+  <!-- 继续为其他项目添加类似的代码 -->
+</div>
+
 Robotics Studio
 
 Robot Learning
