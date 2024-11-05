@@ -49,8 +49,11 @@ My research interest lies at the intersection of robotics, optimal control, mach
     </div>
     <div class="research-details">
       <h3><a href="/Research/SBSim-details" >Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
-      <p><strong>Creative Machines Lab. </strong> </p>
-      <span class="research-date">2024.09 - now</span>
+        <!-- 新增的 Flexbox 容器 -->
+        <div class="lab-info">
+          <p><strong>Creative Machines Lab</strong></p>
+          <span class="research-date">2024.09 - now/span>
+        </div>
       <p>A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google.</p>
     </div>
   </div>  
