@@ -24,30 +24,27 @@ My research interest lies at the intersection of robotics, optimal control, mach
 
 
 # 🤖 Research 
-<div class="research-container">
-  <div class="research">
-    <a href="/research1-page" target="_blank">
-      <div class="research-thumbnail">
-        <img src="/images/HVAC.png" alt="research 1 Image">
-      </div>
-      <h3 class="research-title">Robotics And Rehabilitation (RoAR) Lab</h3>
-    </a>
+<div class="project-container">
+  <div class="project-image">
+    <img src="/images/HVAC.png" alt="HVAC research image" width="150">
+  </div>
+  <div class="project-details">
+    <h3><a href="/project-details" target="_blank">HVAC Research Project</a></h3>
+    <p>Robotics And Rehabilitation (RoAR) Lab.</p>
   </div>
 
-  <div class="research">
-    <a href="/research2-page" target="_blank">
-      <div class="research-thumbnail">
-        <img src="/assets/images/research2.gif" alt="Rapidly Custimizable HVAC Simulator for Reinforcement Learning">
-      </div>
-      <h3 class="research-title">Creative Machines Lab</h3>
-    </a>
+  <div class="project-image">
+    <img src="/images/HVAC.png" alt="Rapidly Custimizable HVAC Simulator for Reinforcement Learning" width="150">
   </div>
+  <div class="project-details">
+    <h3><a href="/project-details" target="_blank">HVAC Research Project</a></h3>
+    <p>Creative Machines Lab. A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google, Fall 2023</p>
+  </div>  
   
 </div>
 
 
 # 🤖 Projects 
-# 🤖 Projects
 
 <div class="projects-container">
   <div class="project">
