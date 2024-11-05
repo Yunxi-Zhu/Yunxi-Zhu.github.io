@@ -32,7 +32,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
       <img src="/images/roar.png" alt="mTPAD">
     </div>
     <div class="research-details">
-      <h3><a href="/research-details" target="_blank">Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization</a></h3>
+      <h3><a href="/Research/mTPAD-details" target="_blank">Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization</a></h3>
       <p><strong>Robotics And Rehabilitation (RoAR) Lab.</strong></p>
       <p>Use genetic algorithm</p>
     </div>
@@ -44,7 +44,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
       <img src="/images/HVAC.png" alt="Rapidly Customizable HVAC Simulator for Reinforcement Learning">
     </div>
     <div class="research-details">
-      <h3><a href="/research-details" target="_blank">Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
+      <h3><a href="/Research/SBSim-details" target="_blank">Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
       <p><strong>Creative Machines Lab. </strong></p>
       <p>A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google.</p>
     </div>
