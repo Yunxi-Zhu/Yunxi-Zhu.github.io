@@ -25,65 +25,84 @@ My research interest lies at the intersection of robotics, optimal control, mach
 
 # 🤖 Research 
 <div class="research-container">
-  <div class="research-image">
-    <img src="/images/roar.png" alt="mTPAD">
-  </div>
-  <div class="research-details">
-    <h3><a href="/research-details" target="_blank">Mobile Tethered Pelvic Assist Device(mTPAD) Motor Positions Optimization</a></h3>
-    <p>Robotics And Rehabilitation (RoAR) Lab.</p>
+
+  <!-- 项目 1 -->
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/roar.png" alt="mTPAD">
+    </div>
+    <div class="research-details">
+      <h3><a href="/research-details" target="_blank">Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization</a></h3>
+      <p>Robotics And Rehabilitation (RoAR) Lab.</p>
+    </div>
   </div>
 
-  <div class="research-image">
-    <img src="/images/HVAC.png" alt="Rapidly Custimizable HVAC Simulator for Reinforcement Learning" >
-  </div>
-  <div class="research-details">
-    <h3><a href="/research-details" target="_blank">Rapidly Custimizable HVAC Simulator for Reinforcement Learning</a></h3>
-    <p>Creative Machines Lab. A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google, Fall 2023</p>
+  <!-- 项目 2 -->
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/HVAC.png" alt="Rapidly Customizable HVAC Simulator for Reinforcement Learning">
+    </div>
+    <div class="research-details">
+      <h3><a href="/research-details" target="_blank">Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
+      <p>Creative Machines Lab. A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google.</p>
+    </div>
   </div>  
   
 </div>
 
 
+
 # 🤖 Projects 
+<div class="research-container">
 
-<div class="projects-container">
-  <div class="project">
-    <a href="/project1-page" target="_blank">
-      <div class="project-thumbnail">
-        <img src="/assets/images/project1.gif" alt="Project 1 Image">
-      </div>
-      <h3 class="project-title">Robotics Studio</h3>
-    </a>
+  <!-- 项目 1 -->
+  <div class="project-container">
+    <div class="project-image">
+      <img src="/images/rs.png" alt="Robotics Studio">
+    </div>
+    <div class="project-details">
+      <h3><a href="/research-details" target="_blank">Bipedal Robot</a></h3>
+      <p>Bipedal Robot, MECE4611 ROBOTICS STUDIO Course Project at Columbia University, Fall 2024.</p>
+    </div>
+    </div>
+
+  <!-- 项目 2 -->
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/rl.png" alt="Robot Learning">
+    </div>
+    <div class="research-details">
+      <h3><a href="/research-details" target="_blank">Robot Learning</a></h3>
+      <p>MECS6616 ROBOT LEARNING, Spring 2024</p>
+    </div>
+  </div>  
+
+  <!-- 项目 3 -->
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/evo.png" alt="Evolving Soft Robot">
+    </div>
+    <div class="research-details">
+      <h3><a href="/research-details" target="_blank">Evolving Soft Robot</a></h3>
+      <p>MECS4510 Evolutionary Computation and Design Automation Course Project at Columbia University, Fall 2023.</p>
+    </div>
+  </div>  
+
+  <!-- 项目 4 -->
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/turbine.png" alt="Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine">
+    </div>
+    <div class="research-details">
+      <h3><a href="/research-details" target="_blank">Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
+      <p>Graduation Project at Xi'an Jiaotong University, Fall 2022.</p>
+    </div>
   </div>
+ 
 
-  <div class="project">
-    <a href="/project2-page" target="_blank">
-      <div class="project-thumbnail">
-        <img src="/assets/images/project2.gif" alt="Project 2 Image">
-      </div>
-      <h3 class="project-title">Robot Learning</h3>
-    </a>
-  </div>
-
-  <div class="project">
-    <a href="/project3-page" target="_blank">
-      <div class="project-thumbnail">
-        <img src="/assets/images/project3.gif" alt="Project 3 Image">
-      </div>
-      <h3 class="project-title">Evolving Soft Robot</h3>
-    </a>
-  </div>
-
-  <!-- 继续为其他项目添加类似的代码 -->
 </div>
 
-Robotics Studio
 
-Robot Learning
-
-Evolving Soft Robot
-
-Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine
 
 # 💻 Work Experiences
 - Teaching Assistant: Data Science for Mechanical Systems
