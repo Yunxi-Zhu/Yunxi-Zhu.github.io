@@ -69,7 +69,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
     </div>
     <div class="research-details">
       <h3><a href="/research-details">Bipedal Robot</a></h3>
-      <p>Bipedal Robot, MECE4611 ROBOTICS STUDIO Course Project at Columbia University, Fall 2024.</p>
+      <p>MECE4611 ROBOTICS STUDIO, Fall 2024.</p>
     </div>
     </div>
 
@@ -91,7 +91,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
     </div>
     <div class="research-details">
       <h3><a href="/research-details" >Evolving Soft Robot</a></h3>
-      <p>MECS4510 Evolutionary Computation and Design Automation Course Project at Columbia University, Fall 2023.</p>
+      <p>MECS4510 Evolutionary Computation and Design Automation, Fall 2023.</p>
     </div>
   </div>  
 
