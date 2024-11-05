@@ -107,3 +107,37 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+
+.research-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.research-image img {
+  border-radius: 8px;
+  width: 150px; /* 设置图片宽度 */
+  height: auto;
+  margin-right: 20px; /* 图片和文字之间的间距 */
+}
+
+.research-details h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.research-details h3 a {
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.research-details h3 a:hover {
+  text-decoration: underline;
+}
+
+.research-details p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #555;
+}
