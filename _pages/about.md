@@ -15,8 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
-
+# <span class='anchor' id='about-me'></span>  About Me
 <span style="font-size: 18px;">I am a second-year Master's student in Mechanical Engineering with a foucus on Robotics at Columbia University. Before entering Columbia, I earned B.Eng. from Xi'an Jiaotong University.
 
 <span style="font-size: 18px;">My research interest lies at the intersection of robotics, optimal control, machine learning, and artificial intelligence.
@@ -114,10 +113,10 @@ redirect_from:
 
 
 
-# 💻 Work Experiences
+# <span id="work-experiences"></span> 💻 Work Experiences
 - *2024.09 - now*, Teaching Assistant: Data Science for Mechanical Systems
 
-# 📖 Educations
+# <span id="educations"></span> 📖 Educations
 - *2023.09 - now*, Master, Columbia University.
 - *2019.09 - 2023.06*, Undergraduate, Xi'an Jiaotong University.
 - *2016.09 - 2019.06*, NO.1 Middle School Affiliated to Central China Normal University, Wuhan. 
