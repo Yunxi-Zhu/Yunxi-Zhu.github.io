@@ -62,7 +62,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
   <!-- 项目 1 -->
   <div class="research-item">
     <div class="research-image">
-      <img src="/images/RS_robo.png" alt="Robotics Studio">
+      <img src="/images/RS_robo.jpg" alt="Robotics Studio">
     </div>
     <div class="research-details">
       <h3><a href="/research-details">Bipedal Robot</a></h3>
