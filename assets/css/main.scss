@@ -148,18 +148,6 @@ h1:before, .anchor:before {
   color: #555;
 }
 
-/* ########################## research页面图片排列  ################################ */
-.image-row {
-  display: flex;
-  gap: 20px; /* 设置图片之间的间距 */
-  justify-content: center; /* 可选项：居中对齐图片 */
-}
-
-.image-row img {
-  width: 300px; /* 控制图片宽度 */
-  height: auto;
-}
-
 
 /* ########################## research页面  ################################ */
 /* 控制内容容器居中 */
