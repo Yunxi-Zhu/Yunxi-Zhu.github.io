@@ -33,8 +33,8 @@ My research interest lies at the intersection of robotics, optimal control, mach
     </div>
     <div class="research-details">
       <h3><a href="/Research/mTPAD-details" >Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization</a></h3>
-      <p><strong>Robotics And Rehabilitation (RoAR) Lab.</strong></p>
-      <p>Use genetic algorithm</p>
+      <p><strong>Robotics And Rehabilitation (RoAR) Lab</strong>      2024.01-2024.09</p>
+      <p>Use random search and genetic algorithm to find the optimal positions of the motors that can satisfy all desired wrenches.</p>
     </div>
   </div>
 
