@@ -15,8 +15,7 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-
-# <span style="font-weight: normal;">h̆̈i /•᷅‎‎•᷄\୭</span>！About Me   ᰔ
+# <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
 <span style="font-size: 18px;">I am a second-year Master's student in Mechanical Engineering with a foucus on Robotics at Columbia University. Before entering Columbia, I earned B.Eng. from Xi'an Jiaotong University.
 
 <span style="font-size: 18px;">My research interest lies at the intersection of robotics, optimal control, machine learning, and artificial intelligence.
