@@ -118,14 +118,19 @@ h1:before, .anchor:before {
 .research-item {
   display: flex;
   align-items: flex-start; /* 使图片和内容对齐 */
-  gap: 15px; /* 图片和文本之间的间距 */
+  gap: 15px; /* 图片和文字之间的间距 */
 }
 
-.research-image img {
+.research-image img,
+.research-image video {
   border-radius: 8px;
-  width: 250px; /* 设置图片宽度 */
+  width: 250px; /* 统一设置图片和视频宽度 */
   height: auto;
-  margin-right: 20px; /* 图片和文字之间的间距 */
+  /* 去除 margin-right，避免不一致的偏移 */
+}
+
+.research-details {
+  flex: 1; /* 让 research-details 占据剩余空间 */
 }
 
 .research-details h3 {
@@ -152,6 +157,7 @@ h1:before, .anchor:before {
   display: flex;
   justify-content: space-between; /* 左右对齐 */
   align-items: center; /* 垂直居中对齐 */
+  width: 100%; /* 确保 lab-info 占满整个宽度 */
 }
 
 .lab-info p {
@@ -159,10 +165,10 @@ h1:before, .anchor:before {
 }
 
 .research-date {
-  margin-left: auto; /* 将时间推到右侧 */
   font-size: 14px;
   color: #555;
 }
+
 
 /* ########################## research页面  ################################ */
 /* 控制内容容器居中 */
