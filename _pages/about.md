@@ -87,7 +87,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
   <!-- 项目 3 -->
   <div class="research-item">
     <div class="research-image">
-      <img src="/images/evo.png" alt="Evolving Soft Robot">
+      <video src="/images/evo.mp4" autoplay loop muted width="400"></video>
     </div>
     <div class="research-details">
       <h3><a href="/research-details" >Evolving Soft Robot</a></h3>
