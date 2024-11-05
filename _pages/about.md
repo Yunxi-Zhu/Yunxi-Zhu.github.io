@@ -28,7 +28,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
   <div class="research">
     <a href="/research1-page" target="_blank">
       <div class="research-thumbnail">
-        <img src="/assets/images/research1.gif" alt="research 1 Image">
+        <img src="/images/HVAC.png" alt="research 1 Image">
       </div>
       <h3 class="research-title">Robotics And Rehabilitation (RoAR) Lab</h3>
     </a>
@@ -37,7 +37,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
   <div class="research">
     <a href="/research2-page" target="_blank">
       <div class="research-thumbnail">
-        <img src="/assets/images/research2.gif" alt="research 2 Image">
+        <img src="/assets/images/research2.gif" alt="Rapidly Custimizable HVAC Simulator for Reinforcement Learning">
       </div>
       <h3 class="research-title">Creative Machines Lab</h3>
     </a>
