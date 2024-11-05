@@ -54,17 +54,17 @@ My research interest lies at the intersection of robotics, optimal control, mach
   
 </div>
 
-
+  
 
 # 🤖 Projects 
 <div class="research-container">
 
   <!-- 项目 1 -->
-  <div class="project-container">
-    <div class="project-image">
-      <img src="/images/rs.png" alt="Robotics Studio">
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/RS_robo.png" alt="Robotics Studio">
     </div>
-    <div class="project-details">
+    <div class="research-details">
       <h3><a href="/research-details">Bipedal Robot</a></h3>
       <p>Bipedal Robot, MECE4611 ROBOTICS STUDIO Course Project at Columbia University, Fall 2024.</p>
     </div>
@@ -98,7 +98,7 @@ My research interest lies at the intersection of robotics, optimal control, mach
       <img src="/images/turbine.png" alt="Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine">
     </div>
     <div class="research-details">
-      <h3><a href="/research-details" target="_blank">Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
+      <h3><a href="/research-details" >Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
       <p>Graduation Project at Xi'an Jiaotong University, Fall 2022.</p>
     </div>
   </div>
