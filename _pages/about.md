@@ -125,7 +125,7 @@ redirect_from:
 
 
 
-# <h2 id="work-experiences"> 💻 Work Experiences </h2>
+# <span id="work-experiences"> 💻 Work Experiences </span>
 - *2024.09 - now*, Teaching Assistant: Data Science for Mechanical Systems
 
 # <span id="educations">📖 Educations</span>
