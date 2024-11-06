@@ -126,6 +126,7 @@ h1:before, .anchor:before {
   border-radius: 8px;
   width: 250px; /* 统一设置图片和视频宽度 */
   height: auto;
+  box-shadow: 3px 3px 6px #888;
   /* 去除 margin-right，避免不一致的偏移 */
 }
 
