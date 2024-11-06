@@ -171,6 +171,13 @@ h1:before, .anchor:before {
 
 
 /* ########################## research页面  ################################ */
+.center-wrapper {
+  display: flex;
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100vh; /* 让容器占满整个视窗高度 */
+}
+
 /* 控制内容容器居中 */
 .content-container {
   max-width: 500px; /* 设置最大宽度 */
