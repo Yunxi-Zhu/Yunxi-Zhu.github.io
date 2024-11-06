@@ -31,7 +31,8 @@ redirect_from:
       <img src="/images/roar.png" alt="mTPAD">
     </div>
     <div class="research-details">
-      <h3><a href="/Research/mTPAD-details" >Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization</a></h3>
+      ### [Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization](/Research/mTPAD-details)
+      
           <!-- 新增的 Flexbox 容器 -->
           <div class="lab-info">
             <p><strong>Robotics And Rehabilitation (RoAR) Lab</strong></p>
