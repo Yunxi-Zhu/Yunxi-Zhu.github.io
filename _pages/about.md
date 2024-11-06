@@ -47,7 +47,7 @@ redirect_from:
       <img src="/images/HVAC.png" alt="Rapidly Customizable HVAC Simulator for Reinforcement Learning">
     </div>
     <div class="research-details">
-      <h3><a href="/Research/SBSim-details" >Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
+      <h3><a href="/Research/mTPAD-details" >Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
         <!-- 新增的 Flexbox 容器 -->
         <div class="lab-info">
           <p><strong>Creative Machines Lab</strong></p>
