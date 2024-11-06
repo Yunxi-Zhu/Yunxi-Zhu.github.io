@@ -113,10 +113,10 @@ redirect_from:
 
 
 
-# <span id="work-experiences"></span> 💻 Work Experiences
+# <span class="work-experiences" id="work-experiences"></span> 💻 Work Experiences
 - *2024.09 - now*, Teaching Assistant: Data Science for Mechanical Systems
 
-# <span id="educations"></span> 📖 Educations
+# <span class="educations" id="educations"></span> 📖 Educations
 - *2023.09 - now*, Master, Columbia University.
 - *2019.09 - 2023.06*, Undergraduate, Xi'an Jiaotong University.
 - *2016.09 - 2019.06*, NO.1 Middle School Affiliated to Central China Normal University, Wuhan. 
