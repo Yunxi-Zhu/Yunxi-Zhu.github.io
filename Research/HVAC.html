@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-details.css"> <!-- 使用新的CSS文件名 -->
 </head>
 <body>
 
-<div class="container">
-    <header>
+<div class="project-details-page">
+    <header class="project-header">
         <h1>Incorporating Metric Depth Learning into Neural Radiance Fields</h1>
-        <p class="date">December 2023 · Lechen Zhang</p>
+        <p class="project-date">December 2023 · Lechen Zhang</p>
     </header>
 
-    <section class="abstract">
+    <section class="project-abstract">
         <h2>Abstract</h2>
         <p>Neural radiance fields (NeRF) encode a scene into a neural representation that enables photo-realistic rendering of novel views. However, a successful reconstruction from RGB images requires a large number of input views taken under static conditions—typically up to a few hundred images for room-size scenes, and the prediction of volume density is usually not as accurate as the RGB, which leads to ghostly artifact issues. To address this issue, a metric depth learning module is incorporated with the classic NeRF framework to leverage the depth prior for faster training speed and better rendering quality.</p>
     </section>
 
-    <section class="content">
+    <section class="project-content">
         <h2>Overview of the Architecture</h2>
         <img src="images/architecture.png" alt="Architecture Overview">
     </section>
