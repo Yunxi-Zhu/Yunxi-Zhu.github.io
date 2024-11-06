@@ -179,7 +179,8 @@ h1:before, .anchor:before {
 }
 
 .content-container {
-  max-width: 800px !important;
+  display: inline-block;
+  max-width: 500px !important;
   margin: 0 auto !important;
   padding: 20px !important;
   text-align: left !important;
