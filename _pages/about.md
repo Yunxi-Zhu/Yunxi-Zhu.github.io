@@ -82,7 +82,7 @@ redirect_from:
     </div>
     <div class="research-details">
       <h3><a href="/research-details" >Robot Learning</a></h3>
-      <p>MECS6616 ROBOT LEARNING, Spring 2024</p>
+      <p>MECS6616 Robot Learning, Spring 2024</p>
     </div>
   </div>  
 
