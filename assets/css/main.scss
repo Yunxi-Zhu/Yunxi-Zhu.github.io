@@ -177,6 +177,8 @@ h1:before, .anchor:before {
   margin: 0 auto; /* 居中对齐 */
   padding: 20px; /* 增加内边距 */
   text-align: left; /* 保持左对齐文本 */
+  top: 50vh; /* 页面垂直居中 */
+  transform: translateY(-50%); /* 使容器居中 */
 }
 
 
