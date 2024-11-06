@@ -27,7 +27,7 @@ redirect_from:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='/images/roar.png' alt="mTPAD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization](/Research/mTPAD-details)
+<span style="font-size: 18px;">[Mobile Tethered Pelvic Assist Device (mTPAD) Motor Positions Optimization](/Research/mTPAD-details)</span>
 
 **Robotics And Rehabilitation (RoAR) Lab**     2024.01 - 2024.09
 - Use random search and genetic algorithm to find the optimal positions of the motors that can satisfy all desired wrenches.
