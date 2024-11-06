@@ -23,7 +23,7 @@ redirect_from:
 
 
 # 🤖 Research 
-
+<!-- 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"></div><img src='/images/roar.png' alt="mTPAD" width="250" height="auto"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -33,7 +33,7 @@ redirect_from:
 - Use random search and genetic algorithm to find the optimal positions of the motors that can satisfy all desired wrenches.
 </div>
 </div>
-
+-->
 
 <div class="research-container">
 
@@ -133,3 +133,14 @@ redirect_from:
 - *2019.09 - 2023.06*, Undergraduate, Xi'an Jiaotong University.
 - *2016.09 - 2019.06*, NO.1 Middle School Affiliated to Central China Normal University, Wuhan. 
 
+<h2><span class="work-experiences" id="work-experiences"></span> 💻 Work Experiences</h2>
+<ul>
+    <li><em>2024.09 - now</em>, Teaching Assistant: Data Science for Mechanical Systems</li>
+</ul>
+
+<h2><span class="educations" id="educations"></span> 📖 Educations</h2>
+<ul>
+    <li><em>2023.09 - now</em>, Master, Columbia University.</li>
+    <li><em>2019.09 - 2023.06</em>, Undergraduate, Xi'an Jiaotong University.</li>
+    <li><em>2016.09 - 2019.06</em>, NO.1 Middle School Affiliated to Central China Normal University, Wuhan.</li>
+</ul>
