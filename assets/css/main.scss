@@ -118,7 +118,8 @@ h1:before, .anchor:before {
 .research-item {
   display: flex;
   align-items: flex-start; /* 使图片和内容对齐 */
-  gap: 20px; /* 图片和文字之间的间距 */
+  gap: 25px; /* 图片和文字之间的间距 */
+  margin-bottom: 20px;
 }
 
 .research-image img,
