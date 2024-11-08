@@ -171,38 +171,39 @@ h1:before, .anchor:before {
 
 
 /* ########################## research页面  ################################ */
-.center-wrapper {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: flex-start !important;
-  padding-top: 20px;;
+/* 针对 research-details 页面 */
+.research-details-page .center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
 }
 
-.content-container {
-  display: block !important;
-  max-width: 500px;
-  margin: 0 auto ;
-  padding: 20px;
-  text-align: center;
+.research-details-page .content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
 
-
-.image-row {
-  display: flex;
-  justify-content: center; /* 图片容器居中 */
-  gap: 20px;
+.research-details-page header h1 {
+    text-align: center;
 }
 
-.image-row figure {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.research-details-page section h2 {
+    text-align: center;
 }
 
-.image-row figcaption {
-  margin-top: 5px;
-  font-size: 14px;
-  color: #555;
-  text-align: center;
+.research-details-page .image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
+
+.research-details-page .image-row figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
