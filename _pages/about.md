@@ -59,7 +59,7 @@ redirect_from:
       <img src="/images/HVAC.png" alt="Rapidly Customizable HVAC Simulator for Reinforcement Learning">
     </div>
     <div class="research-details">
-      <h3 style="color: #0056b3;">Rapidly Customizable HVAC Simulator for Reinforcement Learning</h3>
+      <h3><a href="/Research/HVAC-details">Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
         <!-- 新增的 Flexbox 容器 -->
         <div class="lab-info">
           <p><strong>Creative Machines Lab</strong></p>
@@ -82,7 +82,7 @@ redirect_from:
       <img src="/images/RS_robo.jpg" alt="Robotics Studio">
     </div>
     <div class="research-details">
-      <h3><a href="/research-details">Bipedal Robot</a></h3>
+      <h3><a href="/Research/RS-details">Bipedal Robot</a></h3>
       <p>MECE4611 ROBOTICS STUDIO, Fall 2024.</p>
     </div>
     </div>
@@ -93,7 +93,7 @@ redirect_from:
       <video src="/images/RL.mp4" autoplay loop muted width="250"></video>
     </div>
     <div class="research-details">
-      <h3><a href="/research-details" >Robot Learning</a></h3>
+      <h3><a href="/Research/RL-details" >Robot Learning</a></h3>
       <p>MECS6616 Robot Learning, Spring 2024</p>
     </div>
   </div>  
@@ -104,7 +104,7 @@ redirect_from:
       <video src="/images/evo.mp4" autoplay loop muted width="250"></video>
     </div>
     <div class="research-details">
-      <h3><a href="/research-details" >Evolving Soft Robot</a></h3>
+      <h3><a href="/Research/evo-details" >Evolving Soft Robot</a></h3>
       <p>MECS4510 Evolutionary Computation and Design Automation, Fall 2023.</p>
     </div>
   </div>  
@@ -115,7 +115,7 @@ redirect_from:
       <img src="/images/turbine.png" alt="Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine">
     </div>
     <div class="research-details">
-      <h3><a href="/research-details" >Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
+      <h3><a href="/Research/turbine-details" >Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
       <p>Graduation Project at Xi'an Jiaotong University, Fall 2022.</p>
     </div>
   </div>
