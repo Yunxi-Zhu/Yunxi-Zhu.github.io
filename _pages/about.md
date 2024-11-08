@@ -73,7 +73,7 @@ redirect_from:
 
   
 
-# 🤖 Projects 
+# 🦾 Projects 
 <div class="research-container">
 
   <!-- 项目 1 -->
@@ -84,6 +84,11 @@ redirect_from:
     <div class="research-details">
       <h3><a href="/Research/RS-details">Bipedal Robot</a></h3>
       <p>MECE4611 ROBOTICS STUDIO, Fall 2024.</p>
+      <ul>
+          <li>Designed an eight DOF bipedal robot and 3D printed all components.</li>
+          <li>Assembled the robot and redesign.</li>
+          <li>Simulated the robot in Pybullet, used PPO to train the robot to walk .</li>
+      </ul>
     </div>
     </div>
 
