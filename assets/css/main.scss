@@ -171,12 +171,12 @@ h1:before, .anchor:before {
 
 
 /* ########################## research页面  ################################ */
-/* 针对 research-details 页面 */
 .research-details-page .center-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
 }
 
 .research-details-page .content-container {
@@ -190,7 +190,7 @@ h1:before, .anchor:before {
     text-align: center;
 }
 
-.research-details-page section h2 {
+.research-details-page section {
     text-align: center;
 }
 
@@ -200,10 +200,10 @@ h1:before, .anchor:before {
     gap: 20px;
 }
 
-.research-details-page .image-row figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.research-details-page img {
+    display: block;
+    margin: 0 auto;
 }
+
 
 
