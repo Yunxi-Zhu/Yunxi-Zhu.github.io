@@ -174,19 +174,16 @@ h1:before, .anchor:before {
 .center-wrapper {
   display: flex !important;
   justify-content: center !important;
-  align-items: center !important;
-  height: 100vh !important;
+  align-items: flex-start !important;
+  padding-top: 20px;;
 }
 
 .content-container {
-  display: inline-block;
-  max-width: 500px !important;
-  margin: 0 auto !important;
-  padding: 20px !important;
-  text-align: left !important;
-  position: relative !important;
-  top: 50vh !important;
-  transform: translateY(-50%) !important;
+  display: block !important;
+  max-width: 500px;
+  margin: 0 auto ;
+  padding: 20px;
+  text-align: center;
 }
 
 
