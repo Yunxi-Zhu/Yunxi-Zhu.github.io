@@ -8,13 +8,12 @@
             <h1>Robot Learning</h1>
         </header>
 
+        <p style="text-align: left;"><strong>Use deep learning to train the arm_student to learn the forward dynamics of arm_teacher.</strong></p>
         <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 8px;">
-
             <!-- 左侧图表部分 -->
             <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
                 <img src="/images/rl-dl.png" alt="Chart Image" style="width: 100%; height: auto; max-width: 400px;">
-            </div>
-        
+            </div>        
             <!-- 右侧文本部分 -->
             <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 20px; text-align: left;">
                 <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
@@ -50,18 +49,15 @@
                         </ul>
                     </li>
                 </ul>
-            </div>
-        
+            </div>        
         </section>
 
-        <p>Use MPC to optimize the actions of the robot arm based on a given dynamics model</p>
+        <p style="text-align: left;"><strong>Use MPC to optimize the actions of the robot arm based on a given dynamics model.</strong></p>
         <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
-
             <!-- 左侧图表部分 -->
             <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
                 <video src="/images/mpc.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
-            </div>
-        
+            </div>        
             <!-- 右侧文本部分 -->
             <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 20px; text-align: left;">
                 <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
@@ -80,9 +76,56 @@
                     </li>
                     <li><strong>Run MPC with my own dynamics</strong> </li>                
                 </ul>
-            </div>
-        
+            </div>        
         </section>
+
+        <p style="text-align: left;"><strong>Use DQN to control a two-link robot arm to reach arbitrary goals.</strong></p>
+        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
+            <!-- 左侧图表部分 -->
+            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
+                <video src="/images/dqn.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
+            </div>        
+            <!-- 右侧文本部分 -->
+            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 20px; text-align: left;">
+                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
+                    <li><strong>QNetwork</strong>
+                        <ul>
+                            <li>DQN requires an action space that is discrete, while the native action space is continuous. So I define a dictionary {0: [0.3, -0.4], 1: [-1.4, 0.7],..., 19: [0.4, -0.2]} to convert.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Train DQN</strong>
+                        <ul>
+                            <li>Reward function: -dist(ee_pos, goal)<sup>2</sup></li>
+                            <li>Use replayer buffer to break the correlation between successive samples and reuse past experiences.</li>
+                            <li>Use action network to decide the next action and target network as my ‘baseline’ to reduce overestimation and stabilize the training process. Periodically update the target network.</li>
+                        </ul>
+                    </li>                
+                </ul>
+            </div>        
+        </section>
+
+        <p style="text-align: left;"><strong>Use PPO from Stable Baseline3 to control a two-link robot arm to reach arbitrary goals.</strong></p>
+        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
+            <!-- 左侧图表部分 -->
+            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
+                <video src="/images/ppo.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
+            </div>        
+            <!-- 右侧文本部分 -->
+            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 20px; text-align: left;">
+                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
+                    <li>Use SubprocVecEnv and VecMonitor to construct and monitor parallel environments.</strong></li>
+                    <li>Some hyperparameters</strong>
+                        <ul>
+                            <li>timesteps = 1000000</li>
+                            <li>nenv = 8</li>
+                            <li>batch_size = 2048</li>
+                        </ul>
+                    </li>                
+                </ul>
+            </div>        
+        </section>
+        
+        
     </div>
 
 </div>
