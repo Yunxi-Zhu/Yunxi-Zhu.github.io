@@ -121,7 +121,7 @@ redirect_from:
     </div>
     <div class="research-details">
       <h3><a href="/Research/turbine-details" >Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
-      <p>Graduation Project at Xi'an Jiaotong University, Fall 2022.</p>
+      <p>Graduation Project at Xi'an Jiaotong University, Spring 2023.</p>
       <ul>
           <li>Modeled a gas turbine in SolidWorks and meshed it using ANSYS Meshing.</li>
           <li>Simulated combustion under various boundary conditions in ANSYS Fluent to study the impact of ammonia doping ratio on the flow field, temperature field, and NOx emission in the combustion chamber.</li>
