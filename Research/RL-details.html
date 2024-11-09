@@ -54,20 +54,34 @@
         
         </section>
 
+        <p>Use MPC to optimize the actions of the robot arm based on a given dynamics model</p>
+        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
 
-        <section>
-            <h2 style="text-align: left;">mTPAD Control System</h2>
-            <img src="/images/mTPAD_control.png" alt="mTPAD Image" style="width: 100%; height: auto; margin: 0 auto;">
-        </section>
-
-        <section>
-            <h2 style="text-align: left;">8 Motors Optimization Problem</h2>
-            <h3 style="text-align: left;">Motivation</h3>
-            <p>The previous mTPAD design, with 7 motors, could not provide torque around the vertical axis and had limited capacity to achieve desired force and moment outputs. Additionally, unresolved issues led to a discontinuous wrench profile. To address these limitations, we planned to add an 8th motor, enhancing performance and enabling smoother, more continuous force application.</p>
-            <h3 style="text-align: left;">Approach</h3>
-            <p>- Random search</p>
-            <p>- Genetic algorithm</p>
-            <img src="/images/mTPAD_control.png" alt="mTPAD Image" style="width: 100%; height: auto; max-width: 300px; margin: 0 auto;">
+            <!-- 左侧图表部分 -->
+            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
+                <video src="/images/mpc.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
+            </div>
+        
+            <!-- 右侧文本部分 -->
+            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 20px; text-align: left;">
+                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
+                    <li><strong>Implement MPC</strong>
+                        <ul>
+                            <li>Input: forward dynamics model, current state, goal pos, current proposed action</li>
+                            <li>Output: "best" action</li>
+                            <li>Cost function: linalg.norm(goal_pos - ee_pos) + αꞏee_vel</li>
+                        </ul>
+                    </li>
+                    <li><strong>Collect data using MPC</strong>
+                        <ul>
+                            <li>Because now we hope to reach desired goals, so sample random goals instead of sampling random actions: randomly sample r from [0.05, 1.95] and theta from [π, 2π].</li>
+                            <li>Three fully connected layers with ReLU activation</li>
+                        </ul>
+                    </li>
+                    <li><strong>Run MPC with my own dynamics</strong> </li>                
+                </ul>
+            </div>
+        
         </section>
     </div>
 
