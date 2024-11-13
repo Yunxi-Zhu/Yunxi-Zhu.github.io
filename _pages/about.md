@@ -100,6 +100,11 @@ redirect_from:
     <div class="research-details">
       <h3><a href="/Research/RL-details" >Robot Learning</a></h3>
       <p>MECS6616 Robot Learning, Spring 2024</p>
+      <ul>
+          <li>Applied deep learning to train a two-link robot arm to learn the forward dynamics from a teacher arm.</li>
+          <li>Implemented Model Predictive Control (MPC) to control the robot arm, enabling it to reach arbitrary goals by learning from collected data and applying the learned dynamics model.</li>
+          <li>Used reinforcement learning algorithms (DQN and PPO) to optimize the robot arm’s ability to efficiently reach specified targets.</li>
+      </ul>
     </div>
   </div>  
 
@@ -111,6 +116,11 @@ redirect_from:
     <div class="research-details">
       <h3><a href="/Research/evo-details" >Evolving Soft Robot</a></h3>
       <p>MECS4510 Evolutionary Computation and Design Automation, Fall 2023.</p>
+      <ul>
+          <li>Simulated a breathing and bouncing spring-mass cube, and generated the plots for potential energy, kinetic energy and total energy.</li>
+          <li>Created a robot body using connected cubes and utilized genetic algorithm to optimize its locomotion pattern by selecting, crossovering, and mutating spring parameters.</li>
+          <li>Developed a robot with a variable morphology, enabling addition and removal of springs and masse during the evolution process. Implemented genetic algorithm to iteratively refine the robot's design, resulting in the fastest possible robotic configuration by optimizing both its physical structure and movement dynamics.</li>
+      </ul>
     </div>
   </div>  
 
