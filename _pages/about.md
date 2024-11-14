@@ -130,7 +130,7 @@ redirect_from:
       <img src="/images/turbine.png" alt="Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine">
     </div>
     <div class="research-details">
-      <h3><a href="/Research/turbine-details" >Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</a></h3>
+      <h3>Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine</h3>
       <p>Graduation Project at Xi'an Jiaotong University, Spring 2023.</p>
       <ul>
           <li>Modeled a gas turbine in SolidWorks and meshed it using ANSYS Meshing.</li>
