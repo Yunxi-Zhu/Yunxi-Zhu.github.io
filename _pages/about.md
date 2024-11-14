@@ -63,9 +63,12 @@ redirect_from:
         <!-- 新增的 Flexbox 容器 -->
         <div class="lab-info">
           <p><strong>Creative Machines Lab</strong></p>
-          <span class="research-date">2024.09 - now </span>
+          <span class="research-date">2024.10 - now </span>
         </div>
       <p>A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google.</p>
+      <ul>
+          <li>Transforming a physics simulator into a differentiable simulator.</li>
+      </ul>
     </div>
   </div>  
   
