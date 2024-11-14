@@ -85,9 +85,9 @@ redirect_from:
       <h3><a href="/Research/RS-details">Bipedal Robot</a></h3>
       <p>MECE4611 ROBOTICS STUDIO, Fall 2024.</p>
       <ul>
-          <li>Designed an eight DOF bipedal robot and 3D printed all components.</li>
-          <li>Assembled the robot and redesign.</li>
-          <li>Simulated the robot in Pybullet, used PPO to train the robot to walk .</li>
+          <li>Designed an 8-DOF bipedal robot and 3D-printed all components.</li>
+          <li>Assembled the robot and iteratively refined the design.</li>
+          <li>Developed a simulation in PyBullet and utilized PPO to train the robot for stable locomotion.</li>
       </ul>
     </div>
     </div>
