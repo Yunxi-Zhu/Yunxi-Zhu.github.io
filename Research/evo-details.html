@@ -11,122 +11,27 @@
         <p style="text-align: center;">MECS4510 Evolutionary Computation and Design Automation, Fall 2023</p>
         <hr>
 
-        <p style="text-align: left;"><strong>-Use deep learning to train the arm_student to learn the forward dynamics of arm_teacher.</strong></p>
-        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 8px;">
-            <!-- 左侧图表部分 -->
-            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
-                <img src="/images/rl-dl.png" alt="Chart Image" style="width: 100%; height: auto; max-width: 400px;">
-            </div>        
-            <!-- 右侧文本部分 -->
-            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 10px; text-align: left;">
-                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
-                    <li><strong>Problem Definition</strong>
-                        <ul>
-                            <li>Input: current state (<em>pos + vel</em>) + applied torque</li>
-                            <li>Output: next state</li>
-                        </ul>
-                    </li>
-                    <li><strong>Data Collection</strong>
-                        <ul>
-                            <li>Run the arm_teacher simulator using torques linearly interpolated from the range [-1.5 Nm, 1.5 Nm].</li>
-                            <li>Dataset size: 2500</li>
-                        </ul>
-                    </li>
-                    <li><strong>Network Architecture</strong>
-                        <ul>
-                            <li>Two fully connected layers with <strong>ReLU</strong> activation.</li>
-                            <li>Predict the next velocity and position using acceleration derived from the network.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Train & Test</strong>
-                        <ul>
-                            <li>Adam optimizer, MSE loss function.</li>
-                            <li>The dataset is split into 80% for training and 20% for testing.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Evaluation</strong>
-                        <ul>
-                            <li>Type 1: A constant torque randomly sampled from [-1.5 Nm, 1.5 Nm], applied for 5 seconds.</li>
-                            <li>Type 2: A linearly increasing torque from 0 to a random torque in [0.5 Nm, 1.5 Nm], applied for 5 seconds.</li>
-                            <li>Type 3: One torque is applied for the first 2.5 seconds and another torque is applied for the remaining 2.5 seconds. Both are sampled from [-1 Nm, 1 Nm].</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>        
+       <section>
+            <h2 style="text-align: left;">Breathing & Bouncing Cube</h2>
+            <div class="image-row" style="display: flex; justify-content: center; gap: 20px; align-items: center; flex-wrap: nowrap; width: 100%; max-width: 900px;">
+                <figure style="flex: 1 1 45%; display: flex; flex-direction: column; align-items: center;">
+                  <img src="/images/cube1.mp4" alt="Breathing & Bouncing Cube" style="height: 250px; width: auto;">                 
+                </figure>
+                <figure style="flex: 1 1 45%; display: flex; flex-direction: column; align-items: center;">
+                  <img src="/images/cube2.mp4" alt="Breathing & Bouncing Cube" style="height: 250px; width: auto;">
+                </figure>
+            </div>
+            <p>mTPAD is a cable-driven robotic platform. It can apply controllable forces to a lightweight pelvic belt.</p>
         </section>
 
-        <p style="text-align: left;"><strong>-Use MPC to optimize the actions of the robot arm based on a given dynamics model.</strong></p>
-        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
-            <!-- 左侧图表部分 -->
-            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
-                <video src="/images/mpc.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
-            </div>        
-            <!-- 右侧文本部分 -->
-            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 10px; text-align: left;">
-                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
-                    <li><strong>Implement MPC</strong>
-                        <ul>
-                            <li>Input: forward dynamics model, current state, goal pos, current proposed action</li>
-                            <li>Output: "best" action</li>
-                            <li>Cost function: linalg.norm(goal_pos - ee_pos) + αꞏee_vel</li>
-                        </ul>
-                    </li>
-                    <li><strong>Collect data using MPC</strong>
-                        <ul>
-                            <li>Because now we hope to reach desired goals, so sample random goals instead of sampling random actions: randomly sample r from [0.05, 1.95] and theta from [π, 2π].</li>
-                            <li>Three fully connected layers with ReLU activation</li>
-                        </ul>
-                    </li>
-                    <li><strong>Run MPC with my own dynamics</strong> </li>                
-                </ul>
-            </div>        
+        <section>
+            <h2 style="text-align: left;">Evolved Fastest robot</h2>        
+            <img src="/images/fastest.mp4" alt="Fastest robot" style="height: 250px; width: auto;">   
+            <img src="/images/learning_curve.png" alt="learning_curve" style="height: 250px; width: auto;">
+            <p>1.185 m/s.</p>
         </section>
 
-        <p style="text-align: left;"><strong>-Use DQN to control a two-link robot arm to reach arbitrary goals.</strong></p>
-        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
-            <!-- 左侧图表部分 -->
-            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
-                <video src="/images/DQN.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
-            </div>        
-            <!-- 右侧文本部分 -->
-            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 10px; text-align: left;">
-                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
-                    <li><strong>QNetwork</strong>
-                        <ul>
-                            <li>DQN requires an action space that is discrete, while the native action space is continuous. So I define a dictionary {0: [0.3, -0.4], 1: [-1.4, 0.7],..., 19: [0.4, -0.2]} to convert.</li>
-                        </ul>
-                    </li>
-                    <li><strong>Train DQN</strong>
-                        <ul>
-                            <li>Reward function: -dist(ee_pos, goal)<sup>2</sup></li>
-                            <li>Use replayer buffer to break the correlation between successive samples and reuse past experiences.</li>
-                            <li>Use action network to decide the next action and target network as my ‘baseline’ to reduce overestimation and stabilize the training process. Periodically update the target network.</li>
-                        </ul>
-                    </li>                
-                </ul>
-            </div>        
-        </section>
-
-        <p style="text-align: left;"><strong>-Use PPO from Stable Baseline3 to control a two-link robot arm to reach arbitrary goals.</strong></p>
-        <section style="display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; flex-wrap: nowrap; width: 100%; max-width: 1200px; margin: 0 auto;gap: 6px;">
-            <!-- 左侧图表部分 -->
-            <div class="left-chart" style="flex: 0 0 50%; max-width: 50%; text-align: center;">
-                <video src="/images/PPO.mp4" autoplay loop muted playsinline style="width: 100%; height: auto; max-width: 400px;"></video>
-            </div>        
-            <!-- 右侧文本部分 -->
-            <div class="right-text" style="flex: 0 0 50%; max-width: 50%; padding-left: 10px; text-align: left;">
-                <ul style="list-style-type: disc; padding-left: 20px; line-height: 1.2;">
-                    <li>Use SubprocVecEnv and VecMonitor to construct and monitor parallel environments.</strong></li>
-                    <li>Some hyperparameters</strong>
-                        <ul>
-                            <li>timesteps = 1000000</li>
-                            <li>nenv = 8</li>
-                            <li>batch_size = 2048</li>
-                        </ul>
-                    </li>                
-                </ul>
-            </div>        
-        </section>
+     
         
         
     </div>
