@@ -31,10 +31,10 @@
             <p style="text-align: left; font-size: 18px;margin-bottom: 3;">The mTPAD (mobile Tethered Pelvic Assist Device) is a cable-driven robotic platform. It is a portable extension of the Tethered Pelvic Assist Device (TPAD). It aims to assist individuals with irregular gait by providing targeted external forces to the pelvis without restricting lower limb movement. Unlike the traditional TPAD, which relies on a treadmill setup with motion capture for precise force application, the mTPAD is designed for overground use. It eliminates the need for external motion capture systems and tension sensors, employing an open-loop controller based on forward kinematics for pelvic localization and force control.</p>
         </section>
 
-        <section>
+        <section style="margin-bottom: 5">
             <h2 style="text-align: left;">mTPAD Control System</h2>
             <img src="/images/mTPAD_control.png" alt="mTPAD Image" style="width: 100%; height: auto; margin: 0 auto;">
-            <p style="text-align: left; font-size: 18px;margin-bottom: 3;">The mTPAD control system uses an open-loop strategy based on geometric forward kinematics to estimate the pelvis position from motor encoder angles, bypassing the need for external localization sensors. The controller calculates the necessary cable lengths and determines the pelvic center using a 2-3-2 cable configuration. It then applies a target force-moment profile by solving for the optimal cable tensions via quadratic programming. These tensions are mapped to motor currents, with each motor using an internal PID controller for precise force application. This approach enables accurate pelvic force control during walking, supporting gait training without real-time feedback sensors​</p>
+            <p style="text-align: left; font-size: 18px;">The mTPAD control system uses an open-loop strategy based on geometric forward kinematics to estimate the pelvis position from motor encoder angles, bypassing the need for external localization sensors. The controller calculates the necessary cable lengths and determines the pelvic center using a 2-3-2 cable configuration. It then applies a target force-moment profile by solving for the optimal cable tensions via quadratic programming. These tensions are mapped to motor currents, with each motor using an internal PID controller for precise force application. This approach enables accurate pelvic force control during walking, supporting gait training without real-time feedback sensors​</p>
         </section>
 
         <section>
