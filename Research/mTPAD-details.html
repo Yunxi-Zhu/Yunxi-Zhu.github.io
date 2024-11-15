@@ -43,6 +43,7 @@
             <p style="text-align: left; margin-top: 0; font-size: 18px;">The previous mTPAD design, with 7 motors, could not provide torque around the vertical axis and had limited capacity to achieve desired force and moment outputs. Additionally, unresolved issues led to a discontinuous wrench profile. To address these limitations, we planned to add an 8th motor, enhancing performance and enabling smoother, more continuous force application.</p>
             
             <h3 style="text-align: left; margin-bottom: 0;">Approach</h3>
+            <p style="text-align: left; margin-bottom: 0;">Define a feasible region around the mTPAD frame for potential motor placements. Explore this region to identify motor positions that can generate the desired forces and moments without interfering with the frame structure. Use the volume of the convex hull to represent the workspace of the end-effector. Finally, choose the configuration that maximizes the workspace volume.</p>
             <ul style="text-align: left;margin-top: 0;">
                 <li>Random search</li>
                 <img src="/images/mTPAD_rs.png" alt="mTPAD Image" style="width: 100%; height: auto; max-width: 300px; margin: 0 auto;">
