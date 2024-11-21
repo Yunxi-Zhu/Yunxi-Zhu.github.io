@@ -89,8 +89,9 @@ redirect_from:
       <p>MECE4611 ROBOTICS STUDIO, Fall 2024.</p>
       <ul>
           <li>Designed an 8-DOF bipedal robot and 3D-printed all components.</li>
-          <li>Assembled the robot and iteratively refined the design.</li>
+          <li>Assembled the robot and refined its structure through multiple iterations to enhance stability and performance.</li>
           <li>Developed a simulation in PyBullet and utilized PPO to train the robot for stable locomotion.</li>
+          <li>Achieved stable and smooth movement by designing a control mode with sine functions.</li>
       </ul>
     </div>
     </div>
