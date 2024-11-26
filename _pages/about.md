@@ -18,7 +18,7 @@ redirect_from:
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
 <span style="font-size: 18px;">I am a second-year Master's student in Mechanical Engineering with a foucus on Robotics at Columbia University. Before entering Columbia, I earned B.Eng. from Xi'an Jiaotong University.
 
-<span style="font-size: 18px;">My research interest lies at the intersection of robotics, optimal control, machine learning, and artificial intelligence.
+<span style="font-size: 18px;">My research interest lies at the intersection of robotics, optimal control, machine learning, and simulation.
 
 
 
