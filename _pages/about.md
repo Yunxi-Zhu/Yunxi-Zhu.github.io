@@ -18,7 +18,7 @@ redirect_from:
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
 <span style="font-size: 18px;">I am a second-year master's student in Mechanical Engineering with a foucus on Robotics at Columbia University. Before entering Columbia, I earned B.Eng. from Xi'an Jiaotong University.
 
-<span style="font-size: 18px;">My research interest lies at the intersection of robotics, optimal control, machine learning, and simulation.
+<span style="font-size: 18px;">My research interest lies at the intersection of robotics control, optimization, and simulation.
 
 
 
@@ -49,7 +49,12 @@ redirect_from:
             <p><strong>Robotics And Rehabilitation (RoAR) Lab</strong></p>
             <span class="research-date">2024.01 - 2024.09</span>
           </div>
-      <p>Use random search and genetic algorithm to find the optimal positions of the motors that can satisfy all desired wrenches.</p>
+      <p>Managed the optimization project for the mobile Tethered Pelvic Assist Device, addressing the Z-axis torque limitation and expanding the workspace of the end-effector by integrating an 8th motor.</p>
+      <p>Developed a simulator to optimize cable exit point positions, utilizing a tournament selection method and convex hull representation to ensure desired wrenches and maximize the end-effector range.</p>
+      <p>Designed, iterated, and built validation prototypes using SolidWorks.</p>
+      <p>Improved alignment between simulation results and real-world implementation by integrating practical constraints into the simulator.</p>
+      <p>Assisted in conducting experiments on subjects to validate the system.</p>
+      <p>Processed data from VICON using MATLAB.</p>
     </div>
   </div>
 
@@ -99,6 +104,21 @@ redirect_from:
   <!-- 项目 2 -->
   <div class="research-item">
     <div class="research-image">
+      <img src="/images/robo_eye.jpg" alt="Robot Eye">
+    </div>
+    <div class="research-details">
+      <h3><a href="/Research/RH-details">Robot Eye</a></h3>
+      <p>Robotics Hackathon 2024 (Third Prize)</p>
+      <ul>
+          <li>Designed and developed a robotic eye system capable of tracking human movement using a camera and OpenCV.</li>
+          <li>Programmed synchronized LED lighting on the eyelid to dynamically respond to musical beats, enhancing the interactive experience.</li>
+      </ul>
+    </div>
+    </div>
+
+  <!-- 项目 3 -->
+  <div class="research-item">
+    <div class="research-image">
       <video src="/images/RL.mp4" autoplay loop muted width="250"></video>
     </div>
     <div class="research-details">
@@ -112,7 +132,7 @@ redirect_from:
     </div>
   </div>  
 
-  <!-- 项目 3 -->
+  <!-- 项目 4 -->
   <div class="research-item">
     <div class="research-image">
       <video src="/images/evo.mp4" autoplay loop muted width="250"></video>
@@ -128,7 +148,7 @@ redirect_from:
     </div>
   </div>  
 
-  <!-- 项目 4 -->
+  <!-- 项目 5 -->
   <div class="research-item">
     <div class="research-image">
       <img src="/images/turbine.png" alt="Numerical Simulation Study of Methane and Ammonia Blending in Gas Turbine">
