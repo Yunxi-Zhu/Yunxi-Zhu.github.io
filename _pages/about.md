@@ -49,12 +49,14 @@ redirect_from:
             <p><strong>Robotics And Rehabilitation (RoAR) Lab</strong></p>
             <span class="research-date">2024.01 - 2024.09</span>
           </div>
-      <p>Managed the optimization project for the mobile Tethered Pelvic Assist Device, addressing the Z-axis torque limitation and expanding the workspace of the end-effector by integrating an 8th motor.</p>
-      <p>Developed a simulator to optimize cable exit point positions, utilizing a tournament selection method and convex hull representation to ensure desired wrenches and maximize the end-effector range.</p>
-      <p>Designed, iterated, and built validation prototypes using SolidWorks.</p>
-      <p>Improved alignment between simulation results and real-world implementation by integrating practical constraints into the simulator.</p>
-      <p>Assisted in conducting experiments on subjects to validate the system.</p>
-      <p>Processed data from VICON using MATLAB.</p>
+      <ul>
+          <li>Managed the optimization project for the mobile Tethered Pelvic Assist Device, addressing the Z-axis torque limitation and expanding the workspace of the end-effector by integrating an 8th motor.</li>
+          <li>Developed a simulator to optimize cable exit point positions, utilizing a tournament selection method and convex hull representation to ensure desired wrenches and maximize the end-effector range.</li>
+          <li>Designed, iterated, and built validation prototypes using SolidWorks.</li>
+          <li>Improved alignment between simulation results and real-world implementation by integrating practical constraints into the simulator.</li>
+          <li>Assisted in conducting experiments on subjects to validate the system.</li>
+          <li>Processed data from VICON using MATLAB.</li>
+      </ul>
     </div>
   </div>
 
