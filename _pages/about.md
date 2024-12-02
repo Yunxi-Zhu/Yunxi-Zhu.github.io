@@ -106,7 +106,7 @@ redirect_from:
   <!-- 项目 2 -->
   <div class="research-item">
     <div class="research-image">
-      <img src="/images/robo_eye.jpg" alt="Robot Eye">
+      <img src="/images/RH-1.jpg" alt="Robot Eye">
     </div>
     <div class="research-details">
       <h3><a href="/Research/RH-details">Robot Eye</a></h3>
