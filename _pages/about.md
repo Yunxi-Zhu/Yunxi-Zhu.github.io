@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
-<span style="font-size: 18px;">I am a student researcher at <a herf="columbia.edu" target="_blank"Columbia University</a> advised by <a herf="https://yunzhuli.github.io/" target="_blank"Prof. Yunzhu Li</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a herf="https://www.me.columbia.edu/" target="_blank"Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a herf="https://www.xjtu.edu.cn/" target="_blank"Xi'an Jiaotong University</a>.
+<span style="font-size: 18px;">I am a student researcher at <a href="columbia.edu" target="_blank"Columbia University</a> advised by <a href="https://yunzhuli.github.io/" target="_blank"Prof. Yunzhu Li</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a href="https://www.me.columbia.edu/" target="_blank"Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a href="https://www.xjtu.edu.cn/" target="_blank"Xi'an Jiaotong University</a>.
 
 <span style="font-size: 18px;">My research interest lies at the intersection of robotics control, optimization, and simulation.
 
@@ -172,9 +172,10 @@ redirect_from:
 
 
 # <span id="work-experiences"> 💻 Work Experiences </span>
-- *2024.09 - now*, Teaching Assistant: Data Science for Mechanical Systems
+- *2024.09 - 2024.12*, Teaching Assistant: Data Science for Mechanical Systems
+- *2025.02 - now*, Teaching Assistant: Advanced Kinematics, Dynamics, and Control in Robotics
 
 # <span id="educations">📖 Educations</span>
-- *2023.09 - now*, Master, Columbia University.
+- *2023.09 - 2024.12*, Master, Columbia University.
 - *2019.09 - 2023.06*, Undergraduate, Xi'an Jiaotong University.
 - *2016.09 - 2019.06*, NO.1 Middle School Affiliated to Central China Normal University, Wuhan. 
