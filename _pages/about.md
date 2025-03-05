@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
-<span style="font-size: 18px;">I am a second-year master's student in Mechanical Engineering with a foucus on Robotics at Columbia University. Before entering Columbia, I earned B.Eng. from Xi'an Jiaotong University.
+<span style="font-size: 18px;">I am a student researcher at <a herf="columbia.edu" target="_blank"Columbia University</a> advised by <a herf="https://yunzhuli.github.io/" target="_blank"Prof. Yunzhu Li</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a herf="https://www.me.columbia.edu/" target="_blank"Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a herf="https://www.xjtu.edu.cn/" target="_blank"Xi'an Jiaotong University</a>.
 
 <span style="font-size: 18px;">My research interest lies at the intersection of robotics control, optimization, and simulation.
 
