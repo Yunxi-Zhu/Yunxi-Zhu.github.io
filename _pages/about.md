@@ -56,7 +56,7 @@ redirect_from:
       <img src="/images/robopil.png" alt="Bimanual Teleoperation with Vision-Tactile Sensing">
     </div>
     <div class="research-details">
-      <h3><span style="color: #1a0dab; text-decoration: underline; cursor: default;">Bimanual Teleoperation with Vision-Tactile Sensing</span></h3>
+      <h3><span style="color: #0000EE; cursor: default;">Bimanual Teleoperation with Vision-Tactile Sensing</span></h3>
         <!-- 新增的 Flexbox 容器 -->
         <div class="lab-info">
           <p><strong>Robotic Perception, Interaction, and Learning Lab (RoboPIL)</strong></p>
