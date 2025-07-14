@@ -27,7 +27,8 @@ redirect_from:
   <a href="https://www.me.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>, 
   and my B.Eng. from 
   <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi’an Jiaotong University</a>.
-  
+
+<span style="font-size: 18px;">
   I am currently seeking full-time opportunities as a mechanical engineer or interdisciplinary R&D engineer, where I can apply my skills in mechanical design, system integration, rapid prototyping, and intelligent system development to build impactful and innovative products.
 
 
