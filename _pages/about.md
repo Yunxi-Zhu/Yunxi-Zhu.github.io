@@ -30,8 +30,9 @@ redirect_from:
 
   <br>
 
-  I am currently seeking full-time opportunities as a mechanical engineer or interdisciplinary R&D engineer, where I can apply my skills in mechanical design, system integration, rapid prototyping, and intelligent system development to build impactful and innovative products.
-</span>
+  <span>
+    I am currently seeking full-time opportunities as a mechanical engineer or interdisciplinary R&D engineer, where I can apply my skills in mechanical design, system integration, rapid prototyping, and intelligent system development to build impactful and innovative products.
+  </span>
 
 
 <div style="margin-top: 40px;"></div>
@@ -56,7 +57,11 @@ redirect_from:
       <img src="/images/robopil.png" alt="Bimanual Teleoperation with Vision-Tactile Sensing">
     </div>
     <div class="research-details">
-      <h3><span style="color: #0000EE; cursor: default;">Bimanual Teleoperation with Vision-Tactile Sensing</span></h3>
+      <h3>
+        <a href="javascript:void(0);" style="text-decoration: none; color: #0056b3;">
+          Bimanual Teleoperation with Vision-Tactile Sensing
+        </a>
+      </h3>
         <!-- 新增的 Flexbox 容器 -->
         <div class="lab-info">
           <p><strong>Robotic Perception, Interaction, and Learning Lab (RoboPIL)</strong></p>
