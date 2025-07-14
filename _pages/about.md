@@ -28,12 +28,10 @@ redirect_from:
   and my B.Eng. from 
   <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi’an Jiaotong University</a>.
 
-  <br>
-
   <span>
     I am currently seeking full-time opportunities as a mechanical engineer or interdisciplinary R&D engineer, where I can apply my skills in mechanical design, system integration, rapid prototyping, and intelligent system development to build impactful and innovative products.
   </span>
-
+</span>
 
 <div style="margin-top: 40px;"></div>
 
