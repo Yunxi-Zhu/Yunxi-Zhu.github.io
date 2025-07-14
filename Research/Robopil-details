@@ -1,0 +1,31 @@
+<body class="research-details-page">
+
+<div class="center-wrapper" style="display: flex; flex-direction: column; align-items: center; width: 100%;">
+
+    <div class="content-container" style="max-width: 900px; margin: 0 auto; padding: 20px; text-align: center; display: block;">
+
+        <header>
+            <h1>Bimanual Teleoperation with Vision-Tactile Sensing</h1>
+        </header>
+
+        <section>
+        <p>
+            <a href="https://yunzhuli.github.io/" target="_blank">Robotic Perception, Interaction, and Learning Lab (RoboPIL)</a>
+        </p>
+        </section>
+
+        <section>
+            <img src="/images/HVAC.png" alt="HVAC Image" style="width: 100%; height: auto; margin: 0 auto;">
+            <p style="text-align: left;">"Modern commercial Heating, Ventilation, and Air Conditioning (HVAC) devices form a complex and interconnected thermodynamic system with the building and outside weather conditions, and current setpoint control policies are not fully optimized for minimizing energy use and carbon emission. Given a suitable training environment, a Reinforcement Learning (RL) model is able to improve upon these policies, but training such a model, especially in a way that scales to thousands of buildings, presents many real world challenges. We propose a novel simulation-based approach, where a customized simulator is used to train the agent for each building. Our open-source simulator1 is lightweight and calibrated via telemetry from the building to reach a higher level of fidelity. On a two-story, 68,000 square foot building, with 127 devices, we were able to calibrate our simulator to have just over half a degree of drift from the real world over a six-hour interval. This approach is an important step toward having a real-world RL control system that can be scaled to many buildings, allowing for greater efficiency and resulting in reduced energy consumption and carbon emissions."</p>
+        </section>
+
+        <section>
+            <p style="text-align: left;font-size: 18px;">My work is transforming the simulator into a differentiable version to enable gradient-based optimization. Previously, the thermal parameters in the simulator were determined through random search and manually set. I integrate these parameters into the computational graph, making them learnable and allowing for efficient updates using gradient descent methods.</p>
+        </section>
+        
+        
+    </div>
+
+</div>
+
+</body>
