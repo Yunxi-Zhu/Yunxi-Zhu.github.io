@@ -16,7 +16,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
-<span style="font-size: 18px;">I am a student researcher at <a href="https://www.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a> advised by Prof. <a href="https://yunzhuli.github.io/" target="_blank" style="text-decoration: none;">Yunzhu Li</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a href="https://www.me.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi'an Jiaotong University</a>.
+<span style="font-size: 18px;">I am a student researcher at <a href="https://www.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a> advised by Prof. <a href="https://yunzhuli.github.io/" target="_blank" style="text-decoration: none;">Yunzhu Li</a>. I am fortunate to receive mentorship from Prof. <a href="https://www.me.columbia.edu/faculty/sunil-agrawal" target="_blank" style="text-decoration: none;">Sunil Agrawal</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a href="https://www.me.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi'an Jiaotong University</a>.
 
 
 
