@@ -18,7 +18,7 @@ redirect_from:
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
 <span style="font-size: 18px;">I am a student researcher at <a href="https://www.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a> advised by Prof. <a href="https://yunzhuli.github.io/" target="_blank" style="text-decoration: none;">Yunzhu Li</a>. I am fortunate to receive mentorship from Prof. <a href="https://www.me.columbia.edu/faculty/sunil-agrawal" target="_blank" style="text-decoration: none;">Sunil Agrawal</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a href="https://www.me.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi'an Jiaotong University</a>.
 
-
+<div style="margin-top: 40px;"></div>
 
 # 🤖 Research 
 <!-- 
@@ -47,7 +47,7 @@ redirect_from:
           <span class="research-date">2025.01 - now </span>
         </div>
       <ul>
-          <li>Built and calibrated a low-cost, flexible tactile sensor integrated into robotic grippers, enabling accurate contact feedback.</li>
+          <li>Built and calibrated a low-cost, flexible tactile sensor integrated into robotic grippers.</li>
           <li>Engineered a bimanual teleoperation system (ALOHA robot) incorporating vision and tactile information, collected multimodal
 data, processed and aligned point clouds, and trained a diffusion policy for imitation learning.</li>
           <li>Assembled LEAP Hand and used Meta gloves for teleoperation.</li>
@@ -81,7 +81,7 @@ data, processed and aligned point clouds, and trained a diffusion policy for imi
   
 </div>
 
-  
+<div style="margin-top: 40px;"></div>
 
 # 🦾 Projects 
 <div class="research-container">
@@ -169,12 +169,12 @@ data, processed and aligned point clouds, and trained a diffusion policy for imi
 
 </div>
 
-
+<div style="margin-top: 40px;"></div>
 
 # <span id="work-experiences"> 💻 Work Experiences </span>
 - *2024.09 - 2024.12*, Teaching Assistant: Data Science for Mechanical Systems
 - *2025.02 - 2025.05*, Teaching Assistant: Advanced Kinematics, Dynamics, and Control in Robotics
-
+<div style="margin-top: 40px;"></div>
 # <span id="educations">📖 Educations</span>
 - *2023.09 - 2024.12*, Master, Columbia University.
 - *2019.09 - 2023.06*, Undergraduate, Xi'an Jiaotong University.
