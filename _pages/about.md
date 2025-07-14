@@ -34,6 +34,27 @@ redirect_from:
 -->
 
 <div class="research-container">
+  <!-- 项目 2 -->
+  <div class="research-item">
+    <div class="research-image">
+      <img src="/images/HVAC.png" alt="Bimanual Teleoperation with Vision-Tactile Sensing">
+    </div>
+    <div class="research-details">
+      <h3><a href="/Research/Robopil-details">Bimanual Teleoperation with Vision-Tactile Sensing</a></h3>
+        <!-- 新增的 Flexbox 容器 -->
+        <div class="lab-info">
+          <p><strong>Robotic Perception, Interaction, and Learning Lab (RoboPIL)</strong></p>
+          <span class="research-date">2025.01 - now </span>
+        </div>
+      <ul>
+          <li>Built and calibrated a low-cost, flexible tactile sensor integrated into robotic grippers, enabling accurate contact feedback.</li>
+          <li>Engineered a bimanual teleoperation system (ALOHA robot) incorporating vision and tactile information, collected multimodal
+data, processed and aligned point clouds, and trained a diffusion policy for imitation learning.</li>
+          <li>Assembled LEAP Hand and used Meta gloves for teleoperation.</li>
+          <li>Simulated a bimanual human-size robot in Isaac Lab and teleoperated it using a keyboard interface.</li>
+      </ul>
+    </div>
+  </div>  
 
   <!-- 项目 1 -->
   <div class="research-item">
@@ -57,25 +78,6 @@ redirect_from:
       </ul>
     </div>
   </div>
-
-  <!-- 项目 2 -->
-  <div class="research-item">
-    <div class="research-image">
-      <img src="/images/HVAC.png" alt="Rapidly Customizable HVAC Simulator for Reinforcement Learning">
-    </div>
-    <div class="research-details">
-      <h3><a href="/Research/HVAC-details">Rapidly Customizable HVAC Simulator for Reinforcement Learning</a></h3>
-        <!-- 新增的 Flexbox 容器 -->
-        <div class="lab-info">
-          <p><strong>Creative Machines Lab</strong></p>
-          <span class="research-date">2024.10 - now </span>
-        </div>
-      <p>A Lightweight Calibrated Simulation Enabling Efficient Offline Learning for Optimal Control of Real Buildings, in collaboration with Google.</p>
-      <ul>
-          <li>Transforming a physics simulator into a differentiable simulator.</li>
-      </ul>
-    </div>
-  </div>  
   
 </div>
 
@@ -171,7 +173,7 @@ redirect_from:
 
 # <span id="work-experiences"> 💻 Work Experiences </span>
 - *2024.09 - 2024.12*, Teaching Assistant: Data Science for Mechanical Systems
-- *2025.02 - now*, Teaching Assistant: Advanced Kinematics, Dynamics, and Control in Robotics
+- *2025.02 - 2025.05*, Teaching Assistant: Advanced Kinematics, Dynamics, and Control in Robotics
 
 # <span id="educations">📖 Educations</span>
 - *2023.09 - 2024.12*, Master, Columbia University.
