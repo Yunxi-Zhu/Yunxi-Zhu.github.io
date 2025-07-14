@@ -16,7 +16,23 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 # <span class='anchor' id='about-me'></span> About Me  /•᷅•᷄\୭
-<span style="font-size: 18px;">I am a student researcher at <a href="https://www.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a> advised by Prof. <a href="https://yunzhuli.github.io/" target="_blank" style="text-decoration: none;">Yunzhu Li</a>. I am fortunate to receive mentorship from Prof. <a href="https://www.me.columbia.edu/faculty/sunil-agrawal" target="_blank" style="text-decoration: none;">Sunil Agrawal</a>. I earned my M.S. in Mechanical Engineering (Robotics) at <a href="https://www.me.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>. Before entering Columbia, I earned B.Eng. from <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi'an Jiaotong University</a>.
+<span style="font-size: 18px;">
+  I am a student researcher at 
+  <a href="https://www.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>, 
+  advised by Prof. 
+  <a href="https://yunzhuli.github.io/" target="_blank" style="text-decoration: none;">Yunzhu Li</a>. 
+  I am also fortunate to receive mentorship from Prof. 
+  <a href="https://www.me.columbia.edu/faculty/sunil-agrawal" target="_blank" style="text-decoration: none;">Sunil Agrawal</a>. 
+  I received my M.S. in Mechanical Engineering (Robotics) from 
+  <a href="https://www.me.columbia.edu/" target="_blank" style="text-decoration: none;">Columbia University</a>, 
+  and my B.Eng. from 
+  <a href="https://www.xjtu.edu.cn/" target="_blank" style="text-decoration: none;">Xi’an Jiaotong University</a>.
+
+  <br><br>
+
+  I am currently seeking full-time opportunities as a mechanical engineer or interdisciplinary R&D engineer, where I can apply my skills in mechanical design, system integration, rapid prototyping, and intelligent system development to build impactful and innovative products.
+</span>
+
 
 <div style="margin-top: 40px;"></div>
 
@@ -40,7 +56,7 @@ redirect_from:
       <img src="/images/robopil.png" alt="Bimanual Teleoperation with Vision-Tactile Sensing">
     </div>
     <div class="research-details">
-      <h3><a href="/Research/Robopil-details">Bimanual Teleoperation with Vision-Tactile Sensing</a></h3>
+      <h3><span style="color: #1a0dab; text-decoration: underline; cursor: default;">Bimanual Teleoperation with Vision-Tactile Sensing</span></h3>
         <!-- 新增的 Flexbox 容器 -->
         <div class="lab-info">
           <p><strong>Robotic Perception, Interaction, and Learning Lab (RoboPIL)</strong></p>
