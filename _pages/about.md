@@ -37,7 +37,7 @@ redirect_from:
   <!-- 项目 2 -->
   <div class="research-item">
     <div class="research-image">
-      <img src="/images/HVAC.png" alt="Bimanual Teleoperation with Vision-Tactile Sensing">
+      <img src="/images/robopil.png" alt="Bimanual Teleoperation with Vision-Tactile Sensing">
     </div>
     <div class="research-details">
       <h3><a href="/Research/Robopil-details">Bimanual Teleoperation with Vision-Tactile Sensing</a></h3>
